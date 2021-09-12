@@ -1,0 +1,49 @@
+.panel-clock {
+	--theme: var(--color-blue);
+}
+
+
+
+/* TIME & DATE */
+.panel-clock .time-date {
+	text-align: center;
+}
+
+.panel-clock .time-date .time {
+	display: block;
+	
+	font-size: 80pt;
+	font-weight: 200;
+	
+	color: var(--theme);
+}
+
+.panel-clock .time-date .date {
+	display: block;
+	
+	font-size: 20pt;
+	font-weight: 300;
+}
+
+
+
+/* WEATHER */
+.panel-clock .weather {
+	position: absolute;
+	bottom: 0px;
+}
+
+.panel-clock .weather .category {
+	margin-top: 16px;
+}
+.panel-clock .weather .category span {
+	font-size: 20pt;
+}
+
+.panel-clock .weather .category .value {
+	margin-left: 16px;
+	font-weight: 300;
+}
+.panel-clock .weather .category .icon {
+	color: var(--theme);
+}

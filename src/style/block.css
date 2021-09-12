@@ -1,0 +1,45 @@
+/* BLOCK */
+.block {
+	margin-bottom: 32px;
+}
+
+
+
+/* HEADER */
+.panel > div > .header {
+	margin-bottom: 32px;
+	color: var(--theme);
+}
+
+.block .header > .icon {
+	color: var(--theme);
+}
+
+.panel > div > .header > .value, .panel > div > .header > .extra, .block .header > .value, .block .header > .extra {
+	margin-left: 12px;
+}
+
+.panel > div > .header > .extra {
+	color: var(--color-white);
+}
+.block .header > .extra {
+	color: var(--color-gray);
+}
+
+
+
+/* CONTENT */
+.block .content {
+	display: block;
+	
+	margin-left: 30px;
+	margin-top: 12px;
+	
+	word-wrap: break-word;
+	
+	color: var(--color-gray);
+}
+
+.block .content .line {
+	display: block;
+}

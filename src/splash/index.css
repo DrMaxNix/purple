@@ -1,0 +1,39 @@
+.panel-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	width: 100vw;
+	height: 100vh;
+}
+
+.splash-container {
+	text-align: center;
+}
+
+.splash-container span {
+	display: block;
+}
+
+
+
+.splash-container .header {
+	margin-bottom: 64px;
+}
+
+.splash-container .header span.icon, .splash-container .header span.name {
+	display: inline-block;
+	font-size: 48pt;
+	
+	color: var(--color-purple);
+}
+.splash-container .header span.name {
+	margin-left: 16px;
+	margin-bottom: 16px;
+}
+
+
+
+.splash-container .footer {
+	color: var(--color-gray-dark);
+}

@@ -1,0 +1,45 @@
+/* MAIN STYLE CONFIG FILE */
+:root {
+	/* LAYOUT */
+	/* margin between panels */
+	--layout-panel-margin: 32px;
+	
+	/* padding of panel to the inside content */
+	--layout-panel-padding: 32px;
+	
+	/* panel border radius */
+	--layout-panel-border-radius: 16px;
+	
+	
+	
+	/* FONT */
+	/* default font-family */
+	--font-family: 'Inter', sans-serif;
+	
+	/* default font-weight */
+	--font-weight: 400;
+	
+	/* default font-size */
+	--font-size: 18px;
+	
+	
+	
+	/* COLOR */
+	/* background */
+	--color-background-page: var(--onedark-bg);
+	--color-background-panel: var(--onedark-bg-light);
+	
+	/* white & gray */
+	--color-white: var(--onedark-white);
+	--color-gray: var(--onedark-gray);
+	--color-gray-dark: var(--onedark-gray-dark);
+	
+	/* color accents */
+	--color-blue: var(--onedark-blue);
+	--color-green: var(--onedark-green);
+	--color-orange: var(--onedark-orange);
+	--color-purple: var(--onedark-purple);
+	--color-cyan: var(--onedark-cyan);
+	--color-yellow: var(--onedark-yellow);
+	--color-red: var(--onedark-red);
+}

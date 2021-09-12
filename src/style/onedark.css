@@ -1,0 +1,38 @@
+/* CONFIG FILE FOR ONEDARK COLOR-SCHEME */
+:root {
+	/* background */
+	--onedark-bg: #21252b;
+	--onedark-bg-light: #2c313a;
+	
+	/* I used these values to make up for my old milky screen: */
+	/*--onedark-bg: #101214;
+    --onedark-bg-light: #1A1C21;*/
+	
+	
+	
+	/* white & gray */
+	--onedark-white: #abb2bf;
+	
+	/* If you want a brighter white: */
+	/*--onedark-white: #c5cad3;*/
+	
+	--onedark-gray: #828997;
+	--onedark-gray-dark: #5c6370;
+	
+	
+	
+	/* color accents */
+	--onedark-blue: #61afef;
+	
+	--onedark-green: #98c379;
+	
+	--onedark-orange: #d19a66;
+	
+	--onedark-purple: #c678dd;
+	
+	--onedark-cyan: #56b6c2;
+	
+	--onedark-yellow: #e5c07b;
+	
+	--onedark-red: #e06c75;
+}

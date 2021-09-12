@@ -1,0 +1,87 @@
+.panel-countdown {
+	--theme: var(--color-red);
+}
+
+
+
+/* GRID LAYOUT */
+.panel-countdown .panel-box {
+	display: flex !important;
+    flex-direction: column;
+}
+
+.panel-countdown .stats-container {
+	display: flex;
+    flex: 1 1 100%;
+}
+.panel-countdown .stats-container table {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.panel-countdown table tr.small div.frame {
+	display: inline-block;
+	
+	vertical-align: top;
+	
+	width: calc(100% / 3);
+}
+.panel-countdown table tr.small {
+	vertical-align: bottom;
+}
+.panel-countdown table tr div.frame {
+	text-align: center;
+}
+.panel-countdown table tr div.frame span {
+	display: block;
+}
+
+
+
+/* GENERAL COUNTDOWN STYLE */
+.panel-countdown table tr div.frame span.time {
+	font-variant-numeric: tabular-nums;
+}
+.panel-countdown table tr div.frame span.icon {
+	margin: 8px 0px;
+	
+	font-size: 24pt;
+}
+.panel-countdown table tr div.frame span.name {
+	font-size: 16pt;
+	font-weight: 400;
+}
+
+
+
+/* BIG COUNTDOWN */
+.panel-countdown table tr.big div.frame span.time {
+	font-size: 48pt;
+	font-weight: 300;
+}
+.panel-countdown table tr.big div.frame span.time > span.unit {
+	display: inline-block;
+	
+	margin-left: 4px;
+	
+	font-size: 20pt;
+	font-weight: 400;
+}
+
+
+
+/* SMALL COUNTDOWNS */
+.panel-countdown table tr.small div.frame span.time {
+	font-size: 24pt;
+	font-weight: 400;
+}
+.panel-countdown table tr.small div.frame span.time > span.unit {
+	display: inline-block;
+	
+	margin-left: 4px;
+	
+	font-size: 16pt;
+	font-weight: 400;
+}

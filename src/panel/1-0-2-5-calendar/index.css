@@ -1,0 +1,101 @@
+.panel-calendar {
+	--theme: var(--color-purple);
+}
+
+
+
+/* MONTH */
+.panel-calendar table.month {
+	width: 50%;
+	
+	float: left;
+	
+	table-layout: fixed;
+}
+.panel-calendar table.month td {
+	text-align: center;
+	vertical-align: top;
+}
+
+.panel-calendar table.month td.weekday, .panel-calendar table.month td.weeknum {
+	color: var(--color-gray-dark);
+}
+.panel-calendar table.month td.weekday {
+	padding-bottom: 24px;
+}
+
+
+
+.panel-calendar table.month td.day {
+	padding-bottom: 12px;
+}
+.panel-calendar table.month td.day.pastday {
+	color: var(--color-gray);
+}
+.panel-calendar table.month td.day.today {
+	color: var(--theme);
+}
+
+
+
+.panel-calendar table.month td.day .circles {
+	min-height: 6px;
+	
+	margin: 6px 10px;
+}
+.panel-calendar table.month td.day .circles .circle {
+	display: inline-block;
+	
+	margin: 0px 2px 2px 2px;
+	
+	height: 4px;
+	width: 4px;
+	
+	border-radius: 50%;
+}
+.panel-calendar table.month td.day.today .circles .circle {
+	margin: -1px 1px 1px 1px;
+	
+	height: 6px;
+	width: 6px;
+}
+
+
+
+
+
+/* TIMELINE */
+.panel-calendar table.timeline {
+	padding-left: 60px;
+}
+
+
+
+.panel-calendar table.timeline tr:not(.not-last) > td {
+	padding-bottom: 14px;
+}
+
+
+
+.panel-calendar table.timeline td.date {
+	text-align: right;
+}
+.panel-calendar table.timeline td.date span {
+	margin-right: 12px;
+}
+
+.panel-calendar table.timeline tr.pastday td.date span {
+	color: var(--color-gray);
+}
+.panel-calendar table.timeline tr.today td.date span {
+	color: var(--theme);
+}
+
+
+
+.panel-calendar table.timeline td.name span {
+	margin-left: 12px;
+}
+.panel-calendar table.timeline tr.pastday td.name span {
+	color: var(--color-gray);
+}

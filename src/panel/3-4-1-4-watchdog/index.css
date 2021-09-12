@@ -1,0 +1,36 @@
+.panel-watchdog {
+	--theme: var(--color-orange);
+}
+
+
+
+/* WATCHDOG LEVEL-COLORS */
+.panel-watchdog .watchdog-level-green {
+	color: var(--color-green) !important;
+}
+.panel-watchdog .watchdog-level-blue {
+	color: var(--color-blue) !important;
+}
+.panel-watchdog .watchdog-level-yellow {
+	color: var(--color-yellow) !important;
+}
+.panel-watchdog .watchdog-level-orange {
+	color: var(--color-orange) !important;
+}
+.panel-watchdog .watchdog-level-red {
+	color: var(--color-red) !important;
+}
+.panel-watchdog .watchdog-level-black {
+	color: var(--color-gray) !important;
+}
+
+
+
+/* BONE-LIST */
+.panel-watchdog .bone .level {
+	display: inline-block;
+	width: 16px;
+}
+.panel-watchdog .bone .name-msg span.name {
+	color: var(--color-white);
+}

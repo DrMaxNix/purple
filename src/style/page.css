@@ -1,0 +1,41 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	
+	background-color: var(--color-background-page);
+	color: var(--color-white);
+	font-family: var(--font-family);
+	font-weight: var(--font-weight);
+	
+	font-size: 0pt;
+}
+
+td {
+	padding: 0px;
+}
+
+span {
+	font-size: var(--font-size);
+}
+
+.panel-container {
+	position: relative;
+	
+	width: calc(100vw - var(--layout-panel-margin));
+	height: calc(100vh - var(--layout-panel-margin));
+}
+
+.panel {
+	position: absolute;
+	margin: var(--layout-panel-margin) 0px 0px var(--layout-panel-margin);
+	padding: var(--layout-panel-padding);
+	
+	border-radius: var(--layout-panel-border-radius);
+	
+	background-color: var(--color-background-panel);
+}
+
+.panel-box {
+	overflow: hidden;
+}
