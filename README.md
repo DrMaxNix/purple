@@ -4,3 +4,6 @@
 [![Maintaner](https://img.shields.io/badge/maintainer-DrMaxNix-blue)](https://www.drmaxnix.de)
 
 Framework for creating info-screens / calendars with html, css and javascript
+
+![Main](https://raw.githubusercontent.com/DrMaxNix/purple/main/assets/screenshot-main.png "Main")
+![Splash](https://raw.githubusercontent.com/DrMaxNix/purple/main/assets/screenshot-splash.png "Splash")
