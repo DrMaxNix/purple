@@ -5,7 +5,7 @@
 
 Framework for creating info-screens / calendars with html, css and javascript
 
-**PLEASE NOTICE: THE DOCUMENTATION IS STILL WIP AND WILL BE PUBLISHED SOON!**
+**PLEASE NOTE: THE DOCUMENTATION IS STILL WIP AND WILL BE PUBLISHED SOON!**
 
 ![Main](https://raw.githubusercontent.com/DrMaxNix/purple/main/assets/screenshot-main.png "Main")
 ![Splash](https://raw.githubusercontent.com/DrMaxNix/purple/main/assets/screenshot-splash.png "Splash")
